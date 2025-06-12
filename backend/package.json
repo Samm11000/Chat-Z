@@ -13,6 +13,7 @@
   "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "chat-app": "file:..",
     "chatapplication": "file:..",
     "cloudinary": "^2.6.1",
     "cookie-parser": "^1.4.7",
@@ -25,5 +26,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "engines": {
+  "node": "20.x"
+}
+
 }
